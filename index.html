@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon El-Delinjat - مستلزمات منزلية بجودة عالية</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <a href="#" class="brand-logo">Amazon El-Delinjat</a>
+            <div class="nav-right">
+                <div class="search-bar">
+                    <input type="text" id="searchInput" placeholder="ابحث عن منتجات...">
+                    <i class="fas fa-search"></i>
+                </div>
+                <a href="#" class="cart-icon" title="سلة المشتريات">
+                    <i class="fas fa-shopping-cart"></i>
+                    <span class="cart-count">0</span>
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <header class="hero-section">
+        <div class="container">
+            <h1>مرحبًا بكم في Amazon El-Delinjat!</h1>
+            <p class="tagline">منصتك الأولى لشراء المستلزمات المنزلية بسهولة وسرعة وجودة لا مثيل لها.</p>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="products-section" id="products">
+            <h2>منتجاتنا المميزة</h2>
+            <div class="products-grid">
+                <div class="product-card" data-product-name="طقم حلل جرانيت فاخر">
+                    <img src="https://via.placeholder.com/300x220?text=طقم+حلل+جرانيت" alt="طقم حلل جرانيت فاخر" loading="lazy">
+                    <div class="product-info">
+                        <h3>طقم حلل جرانيت فاخر</h3>
+                        <p class="description">طقم حلل جرانيت عالي الجودة لتحضير أشهى المأكولات الصحية بكل سهولة ومتانة.</p>
+                        <p class="price">1000 جنيه</p>
+                        <div class="quantity-control">
+                            <label for="qty-granite">الكمية:</label>
+                            <input type="number" id="qty-granite" value="1" min="1" class="product-quantity">
+                        </div>
+                        <button class="order-btn">اطلب الآن</button>
+                    </div>
+                </div>
+
+                <div class="product-card" data-product-name="مفرمة لحم كهربائية قوية">
+                    <img src="https://via.placeholder.com/300x220?text=مفرمة+لحم+كهربائية" alt="مفرمة لحم كهربائية قوية" loading="lazy">
+                    <div class="product-info">
+                        <h3>مفرمة لحم كهربائية قوية</h3>
+                        <p class="description">مفرمة لحم قوية ومتينة، مثالية لفرم اللحوم والخضروات بسهولة في المنزل.</p>
+                        <p class="price">850 جنيه</p>
+                        <div class="quantity-control">
+                            <label for="qty-meat-grinder">الكمية:</label>
+                            <input type="number" id="qty-meat-grinder" value="1" min="1" class="product-quantity">
+                        </div>
+                        <button class="order-btn">اطلب الآن</button>
+                    </div>
+                </div>
+
+                <div class="product-card" data-product-name="مكنسة كهربائية روبوت ذكية">
+                    <img src="https://via.placeholder.com/300x220?text=مكنسة+ذكية+روبوت" alt="مكنسة كهربائية روبوت ذكية" loading="lazy">
+                    <div class="product-info">
+                        <h3>مكنسة كهربائية روبوت ذكية</h3>
+                        <p class="description">مكنسة روبوت ذكية بتقنيات حديثة لتنظيف المنزل بكفاءة عالية وبدون عناء.</p>
+                        <p class="price">2500 جنيه</p>
+                        <div class="quantity-control">
+                            <label for="qty-robot-vacuum">الكمية:</label>
+                            <input type="number" id="qty-robot-vacuum" value="1" min="1" class="product-quantity">
+                        </div>
+                        <button class="order-btn">اطلب الآن</button>
+                    </div>
+                </div>
+
+                <div class="product-card" data-product-name="ميكروويف ديجيتال متعدد الوظائف">
+                    <img src="https://via.placeholder.com/300x220?text=ميكروويف+ديجيتال" alt="ميكروويف ديجيتال متعدد الوظائف" loading="lazy">
+                    <div class="product-info">
+                        <h3>ميكروويف ديجيتال متعدد الوظائف</h3>
+                        <p class="description">ميكروويف عصري بشاشة ديجيتال وميزات متعددة لسهولة الاستخدام وتسخين سريع.</p>
+                        <p class="price">1500 جنيه</p>
+                        <div class="quantity-control">
+                            <label for="qty-microwave">الكمية:</label>
+                            <input type="number" id="qty-microwave" value="1" min="1" class="product-quantity">
+                        </div>
+                        <button class="order-btn">اطلب الآن</button>
+                    </div>
+                </div>
+
+                <div class="product-card" data-product-name="غسالة أطباق أتوماتيكية">
+                    <img src="https://via.placeholder.com/300x220?text=غسالة+أطباق+أتوماتيكية" alt="غسالة أطباق أتوماتيكية" loading="lazy">
+                    <div class="product-info">
+                        <h3>غسالة أطباق أتوماتيكية</h3>
+                        <p class="description">غسالة أطباق عالية الأداء لتوفير الوقت والجهد، أطباق نظيفة ولامعة دائماً.</p>
+                        <p class="price">4000 جنيه</p>
+                        <div class="quantity-control">
+                            <label for="qty-dishwasher">الكمية:</label>
+                            <input type="number" id="qty-dishwasher" value="1" min="1" class="product-quantity">
+                        </div>
+                        <button class="order-btn">اطلب الآن</button>
+                    </div>
+                </div>
+
+                <div class="product-card" data-product-name="طقم أطباق بورسلين فاخر">
+                    <img src="https://via.placeholder.com/300x220?text=طقم+أطباق+بورسلين" alt="طقم أطباق بورسلين فاخر" loading="lazy">
+                    <div class="product-info">
+                        <h3>طقم أطباق بورسلين فاخر</h3>
+                        <p class="description">طقم أطباق أنيق من البورسلين الفاخر، مثالي لتقديم وجباتك بأناقة.</p>
+                        <p class="price">750 جنيه</p>
+                        <div class="quantity-control">
+                            <label for="qty-porcelain">الكمية:</label>
+                            <input type="number" id="qty-porcelain" value="1" min="1" class="product-quantity">
+                        </div>
+                        <button class="order-btn">اطلب الآن</button>
+                    </div>
+                </div>
+
+                <div class="product-card" data-product-name="خلاط كهربائي متعدد الاستخدامات">
+                    <img src="https://via.placeholder.com/300x220?text=خلاط+كهربائي" alt="خلاط كهربائي متعدد الاستخدامات" loading="lazy">
+                    <div class="product-info">
+                        <h3>خلاط كهربائي متعدد الاستخدامات</h3>
+                        <p class="description">خلاط قوي ومتعدد الوظائف، لتحضير العصائر والشوربات والعجائن بسهولة.</p>
+                        <p class="price">600 جنيه</p>
+                        <div class="quantity-control">
+                            <label for="qty-blender">الكمية:</label>
+                            <input type="number" id="qty-blender" value="1" min="1" class="product-quantity">
+                        </div>
+                        <button class="order-btn">اطلب الآن</button>
+                    </div>
+                </div>
+
+                <div class="product-card" data-product-name="مكواة بخار عمودية احترافية">
+                    <img src="https://via.placeholder.com/300x220?text=مكواة+بخار+عمودية" alt="مكواة بخار عمودية احترافية" loading="lazy">
+                    <div class="product-info">
+                        <h3>مكواة بخار عمودية احترافية</h3>
+                        <p class="description">مكواة بخار عمودية لكي الملابس بسهولة وسرعة، نتائج مثالية دون عناء.</p>
+                        <p class="price">950 جنيه</p>
+                        <div class="quantity-control">
+                            <label for="qty-steamer">الكمية:</label>
+                            <input type="number" id="qty-steamer" value="1" min="1" class="product-quantity">
+                        </div>
+                        <button class="order-btn">اطلب الآن</button>
+                    </div>
+                </div>
+
+                <div class="product-card" data-product-name="فلتر مياه 7 مراحل متكامل">
+                    <img src="https://via.placeholder.com/300x220?text=فلتر+مياه" alt="فلتر مياه 7 مراحل متكامل" loading="lazy">
+                    <div class="product-info">
+                        <h3>فلتر مياه 7 مراحل متكامل</h3>
+                        <p class="description">فلتر مياه متطور لتنقية المياه، يوفر مياه شرب نقية وصحية لعائلتك.</p>
+                        <p class="price">1100 جنيه</p>
+                        <div class="quantity-control">
+                            <label for="qty-water-filter">الكمية:</label>
+                            <input type="number" id="qty-water-filter" value="1" min="1" class="product-quantity">
+                        </div>
+                        <button class="order-btn">اطلب الآن</button>
+                    </div>
+                </div>
+
+                <div class="product-card" data-product-name="مجموعة أدوات مطبخ سيليكون فاخرة">
+                    <img src="https://via.placeholder.com/300x220?text=أدوات+مطبخ+سيليكون" alt="مجموعة أدوات مطبخ سيليكون فاخرة" loading="lazy">
+                    <div class="product-info">
+                        <h3>مجموعة أدوات مطبخ سيليكون فاخرة</h3>
+                        <p class="description">مجموعة متكاملة من أدوات المطبخ المصنوعة من السيليكون عالي الجودة والآمن.</p>
+                        <p class="price">350 جنيه</p>
+                        <div class="quantity-control">
+                            <label for="qty-silicone-tools">الكمية:</label>
+                            <input type="number" id="qty-silicone-tools" value="1" min="1" class="product-quantity">
+                        </div>
+                        <button class="order-btn">اطلب الآن</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <hr>
+
+        <section class="why-us-section">
+            <h2>لماذا تختار Amazon El-Delinjat؟</h2>
+            <div class="features-grid">
+                <div class="feature-item">
+                    <i class="fas fa-truck-fast"></i>
+                    <h3>شحن سريع وموثوق</h3>
+                    <p>نضمن لك وصول منتجاتك في أسرع وقت ممكن وبأمان تام إلى باب منزلك.</p>
+                </div>
+                <div class="feature-item">
+                    <i class="fas fa-star"></i>
+                    <h3>منتجات عالية الجودة</h3>
+                    <p>نقدم فقط أفضل المنتجات المختارة بعناية لضمان رضاكم وجودة لا تضاهى.</p>
+                </div>
+                <div class="feature-item">
+                    <i class="fas fa-headset"></i>
+                    <h3>دعم فني 24/7</h3>
+                    <p>فريق دعم العملاء لدينا متاح على مدار الساعة للإجابة على استفساراتكم ومساعدتكم.</p>
+                </div>
+                <div class="feature-item">
+                    <i class="fas fa-handshake-alt"></i>
+                    <h3>تجربة تسوق سهلة</h3>
+                    <p>منصة سهلة الاستخدام تضمن لك تجربة تسوق مريحة وممتعة من البداية للنهاية.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <div id="order-form-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-button">&times;</span>
+            <h2>تأكيد الطلب</h2>
+            <p class="modal-product-name-display" id="modal-product-name"></p>
+            <form id="order-form">
+                <div class="form-group">
+                    <label for="full-name">الاسم الكامل:</label>
+                    <input type="text" id="full-name" name="full-name" required placeholder="أدخل اسمك بالكامل">
+                </div>
+
+                <div class="form-group">
+                    <label for="mobile-number">رقم الموبايل:</label>
+                    <input type="tel" id="mobile-number" name="mobile-number" required placeholder="مثال: 01xxxxxxxxxx">
+                </div>
+
+                <div class="form-group">
+                    <label for="address">العنوان / المكان:</label>
+                    <textarea id="address" name="address" rows="3" required placeholder="أدخل عنوانك بالتفصيل"></textarea>
+                </div>
+
+                <button type="submit" class="submit-order-btn">إرسال الطلب</button>
+            </form>
+        </div>
+    </div>
+
+    <button id="scrollToTopBtn" title="الذهاب للأعلى">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Amazon El-Delinjat. جميع الحقوق محفوظة.</p>
+            <p>تواصل معنا عبر واتساب: <a href="https://wa.me/201064338003" target="_blank" rel="noopener noreferrer">01064338003</a></p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
